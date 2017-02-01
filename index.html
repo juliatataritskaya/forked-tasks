@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" manifest="task.appcache">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
     <title>Portfolio</title>
-
-
     <link href="css/style.css" rel="stylesheet">
-
   </head>
 
   <body>
@@ -37,13 +34,13 @@
 
     <div class="content">
       <ul>
-        <li>
+        <li id="game_2048">
           <img src="https://lh4.ggpht.com/kJEnfqhPvtm4m3EneSZ4fWYGS8lW4YNhEjk6zPkyrQaBUHc-2Y_ElDic99NHI0h-UBLXVbRCjFybFvrWxdk=s100">
           <a href="project-2048.html">Build Your Own 2048!</a>
           <p>I made my own version of 2048. How cool is that!?</p>
         </li>
 
-        <li>
+        <li id="">
           <img src="https://lh6.ggpht.com/f_0W8h__3G99CWTjnMjD8BUKm7yp2-wJyApLtTwFoFtlal2ULf_JgHIsOQq2NiYfKOdMlXlMHDKNo5XVZLs=s100">
           <a href="project-webperf.html">Website Performance Optimization</a>
           <p>Hey... this class looks familiar.</p>
@@ -69,16 +66,15 @@
   </div>
   </body>
 
-  <!-- Hmm, what is the impact of web fonts on speed? Measure it... -->
   <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <link href="css/print.css" rel="stylesheet">
   <script>
-              // Optional TODO: replace with your Google Analytics profile ID.
-                      ga('send', 'pageview');
+  // Optional TODO: replace with your Google Analytics profile ID.
+  ga('send', 'pageview');
 
-                      ga('create', 'UA-XXXX-Y');
-                      (function(w,g){w['GoogleAnalyticsObject']=g;
-                        w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
+  ga('create', 'UA-XXXX-Y');
+  (function(w,g){w['GoogleAnalyticsObject']=g;
+  w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
   </script>
   <script async src="js/perfmatters.js"></script>
   <script src="http://www.google-analytics.com/analytics.js"></script>
